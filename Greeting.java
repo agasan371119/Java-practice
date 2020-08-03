@@ -1,8 +1,7 @@
 class Greeting {
    public static void main(String args[]) {
-     System.out.println("hello java");
-     System.out.println("hello paiza");
-     System.out.println("hello ruby");
-
+     int i = 10;
+     int j = 20;
+     System.out.println(i * j);
    }
 }
