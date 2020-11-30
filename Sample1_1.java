@@ -1,6 +1,6 @@
 class Sample1_1 {
   public static void main(String[] args) {
-    hello("Yu・Koba!");
+    hello("Yu・Ko!");
   }
 
   public static void hello(String name) {
