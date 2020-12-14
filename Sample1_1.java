@@ -3,6 +3,7 @@ class Sample1_1 {
     hello("YuNa");
     hello("NiAi");
     hello("NiA");
+    hello("Ni");
   }
 
   public static void hello(String name) {
