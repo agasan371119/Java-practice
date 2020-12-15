@@ -4,6 +4,7 @@ class Sample1_1 {
     hello("NiAi");
     hello("NiA");
     hello("Ni");
+    hello("N");
   }
 
   public static void hello(String name) {
