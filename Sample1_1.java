@@ -9,6 +9,7 @@ class Sample1_1 {
     hello("A");
     hello("A");
     hello("B");
+    hello("C");
   }
 
   public static void hello(String name) {
