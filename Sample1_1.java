@@ -10,6 +10,7 @@ class Sample1_1 {
     hello("A");
     hello("B");
     hello("C");
+    hello("D");
   }
 
   public static void hello(String name) {
