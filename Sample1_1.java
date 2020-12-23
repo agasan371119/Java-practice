@@ -11,6 +11,8 @@ class Sample1_1 {
     hello("B");
     hello("C");
     hello("D");
+    hello("E");
+    
   }
 
   public static void hello(String name) {
