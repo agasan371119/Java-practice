@@ -12,6 +12,7 @@ class Sample1_1 {
     hello("C");
     hello("D");
     hello("E");
+    hello("F");
     
   }
 
