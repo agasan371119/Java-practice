@@ -13,6 +13,7 @@ class Sample1_1 {
     hello("D");
     hello("E");
     hello("F");
+    hello("G");
     
   }
 
