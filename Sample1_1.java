@@ -14,7 +14,7 @@ class Sample1_1 {
     hello("E");
     hello("F");
     hello("G");
-    
+    hello("G");
   }
 
   public static void hello(String name) {
