@@ -12,6 +12,7 @@ public class touch {
     while(true) {
       System.out.print("Your guess? ");
       int guess = new Scanner(System.in).nextInt();
+      //count += 1;
       count++;
       
       //大小判定
