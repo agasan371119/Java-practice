@@ -5,6 +5,7 @@ public class touch {
   public static void main(String[] args) {
     //ランダム数
     int answer = new Random().nextInt(20) + 1;
+    //正解するまでの合計
     int count = 0;
     
 
