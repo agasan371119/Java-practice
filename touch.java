@@ -9,7 +9,7 @@ public class touch {
     int count = 0;
     
 
-    //繰り返し
+    //繰り返し正解になるまで
     while(true) {
       System.out.print("Your guess? ");
       int guess = new Scanner(System.in).nextInt();
