@@ -19,12 +19,12 @@ public class touch {
       
       //大小判定
       if(answer == guess) {
-        System.out.println("Bingo! It took " + count + " gusses!");
+        System.out.println("Bingo! It took " + count + " gusses!!!!");
         break;
       } else if(answer > guess) {
-        System.out.println("The answer is higher!");
+        System.out.println("The answer is higher!!");
       } else {
-        System.out.println("The answer is lower!");
+        System.out.println("The answer is lower!!");
       }
     }
   }
