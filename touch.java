@@ -17,7 +17,7 @@ public class touch {
       //count += 1;
       count++;
       
-      //大小判定
+      //判定
       if(answer == guess) {
         System.out.println("Bingo! It took " + count + " gusses!!!!");
         break;
