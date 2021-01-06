@@ -15,6 +15,9 @@ public class MyApp {
     System.out.println(x);
     x--;
     System.out.println(x);
+    x *= 3;
+    System.out.println(x);
+
 
   }
 }
