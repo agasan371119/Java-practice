@@ -1,6 +1,6 @@
 public class MyApp {
   public static void main(String[] args) {
-    String signal = "yellow";
+    String signal = "green";
 
     switch(signal) {
       case "red":
