@@ -5,6 +5,7 @@ public class Main {
       System.out.println(sum1);
       int sum2 = product(500, 700);
       System.out.println(sum2);
+      sum3(100, 50);
   }
 
   public static int sum(int a, int b) {
@@ -13,5 +14,8 @@ public class Main {
 
   public static int product(int x, int y) {
     return x * y;
+  }
+  public static void sum3(int w, int z) {
+    System.out.println(w / z);
   }
 }
