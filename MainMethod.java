@@ -12,7 +12,7 @@ public class MainMethod {
     int rand = (int)(Math.random() * 3 + 0);
 
     System.out.println(enemies[rand] + "が、現れた!!");
-    System.out.println(" ");
+    System.out.println("-------------------------");
   }
 
   //仲間の準備
