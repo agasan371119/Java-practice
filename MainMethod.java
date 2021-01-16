@@ -1,7 +1,7 @@
 public class MainMethod {
   public static void main(String[] args) {
     monster();
-    person();
+    attack();
   }
 
 
@@ -24,4 +24,13 @@ public class MainMethod {
     }
     System.out.println(parties[parties.length - 1] + "は、遊んでいる");
   }
+
+  //攻撃コマンド
+  public static void attack() {
+    String[] selections = {"剣を振りかぶる", "呪文を唱える", "盾で守る"};
+      person();
+
+  }
+
+  //攻撃効果
 }
