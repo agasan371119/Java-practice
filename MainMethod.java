@@ -1,13 +1,14 @@
 public class MainMethod {
   public static void main(String[] args) {
-    monster();
-    attack();
+    String[] enemy = {"スライム", "ドラゴン", "魔王"};
+    String[] party = {"勇者", "戦士", "魔法使い", "武道家", "遊び人"};
+    monster(enemy);
+    person(party);
   }
 
 
   //モンスターの発生
-  public static void monster() {
-    String[] enemies = {"スライム", "ドラゴン", "魔王"};
+  public static void monster(String[] enemies) {
 
     int rand = (int)(Math.random() * 3 + 0);
 
@@ -16,19 +17,22 @@ public class MainMethod {
   }
 
   //仲間の準備
-  public static void person() {
-    String[] parties = {"勇者", "戦士", "魔法使い", "武道家", "遊び人"};
+  public static void person(String[] parties) {
 
     for(int i = 0; i < parties.length - 1; i++) {
       System.out.println(parties[i] + "は、身構えた!!");
     }
-    System.out.println(parties[parties.length - 1] + "は、遊んでいる");
+    int rand = (int)(Math.random() * 2 + 1);
+
+    if(rand == 1) {
+      System.out.println(parties[parties.length - 1] + "は、遊んでいる!!");
+    } else {
+      System.out.println(parties[parties.length - 1] + "は、踊っている!!");
+    }
   }
 
   //攻撃コマンド
   public static void attack() {
-    String[] selections = {"剣を振りかぶる", "呪文を唱える", "盾で守る"};
-      person();
 
   }
 
