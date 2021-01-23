@@ -14,5 +14,6 @@ public class Main {
 
   public static void attack() {
     System.out.println("剣で攻撃");
+    System.out.println("遊んでいる");
   }
 }
