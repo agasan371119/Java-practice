@@ -2,8 +2,10 @@ public class MainMethod {
   public static void main(String[] args) {
     String[] enemy = {"スライム", "ドラゴン", "魔王"};
     String[] party = {"勇者", "戦士", "魔法使い", "武道家", "遊び人"};
+    String[] attackCommand = {"攻撃", "魔法", "道具", "逃げる"};
     monster(enemy);
     person(party);
+    attack(attackCommand);
   }
 
 
@@ -33,8 +35,10 @@ public class MainMethod {
   }
 
   //攻撃コマンド
-  public static void attack() {
-
+  public static void attack(String[] command) {
+    for(String com : command) {
+      System.out.println(com + "を選択してください。");
+    }
   }
 
   //攻撃効果
