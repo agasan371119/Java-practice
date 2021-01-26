@@ -37,8 +37,9 @@ public class MainMethod {
   //攻撃コマンド
   public static void attack(String[] command) {
     for(String com : command) {
-      System.out.println(com + "を選択してください。");
+      System.out.println(com);
     }
+    System.out.println("この中から選択してください");
   }
 
   //攻撃効果
