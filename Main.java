@@ -1,19 +1,12 @@
+import java.util.*;
+
 public class Main {
+
   public static void main(String[] args) {
-    String[] enemy = {"勇者", "戦士", "武道家", "遊び人"};
+    Scanner sc = new Scanner(System.in);
+    System.out.print("入力してください  ");
+    String str = sc.next();
+    System.out.println(str + "  ようこそ!!");
 
-    printArray(enemy);
-    attack();
-  }
-  public static void printArray(String[] enemy) {
-    for(int i = 0; i < enemy.length - 1; i++) {
-      System.out.println(enemy[i] + "武器を構えた");
-    }
-    System.out.println(enemy[3] + "は遊んでいる");
-  }
-
-  public static void attack() {
-    System.out.println("剣で攻撃");
-    System.out.println("遊んでいる");
   }
 }
