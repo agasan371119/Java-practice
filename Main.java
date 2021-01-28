@@ -1,12 +1,17 @@
-import java.util.*;
+class User {
+  String name = "Me!";
+
+  void sayHi() {
+    System.out.println("hi!!");
+  }
+}
 
 public class Main {
-
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    System.out.print("入力してください  ");
-    String str = sc.next();
-    System.out.println(str + "  ようこそ!!");
+      User tom;
+      tom = new User();
 
+      System.out.println(tom.name);
+      tom.sayHi();
   }
 }
