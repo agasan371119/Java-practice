@@ -1,7 +1,6 @@
 public class Main {
   public static void main(String[] args) {
-      User tom;
-      tom = new User();
+      User tom = new User();
 
       System.out.println(tom.name);
       tom.sayHi();
