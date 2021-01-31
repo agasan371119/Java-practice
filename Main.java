@@ -4,6 +4,13 @@ public class Main {
 
       System.out.println(tom.name);
       tom.sayHi();
+
+      sayHello();
+
+  }
+
+  public static void sayHello() {
+    System.out.println("hello");
   }
 }
 
