@@ -2,8 +2,8 @@ public class Main {
   public static void main(String[] args) {
       User tom = new User();
 
-      System.out.println(tom.name);
-      tom.sayHi();
+      System.out.println(jon.name);
+      jon.sayHi();
 
       sayHello();
 
