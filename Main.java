@@ -10,7 +10,7 @@ public class Main {
   }
 
   public static void sayHello() {
-    System.out.println("hey si");
+    System.out.println("hy si");
   }
 }
 
