@@ -15,7 +15,7 @@ public class Main {
 }
 
 class User {
-  String name = "!!a!?";
+  String name = "!?";
 
   void sayHi() {
     System.out.println("hey!");
