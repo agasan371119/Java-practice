@@ -18,6 +18,6 @@ class User {
   String name = "!?";
 
   void sayHi() {
-    System.out.println("hey 三河!");
+    System.out.println("よう 三河!");
   }
 }
