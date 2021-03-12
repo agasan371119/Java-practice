@@ -15,7 +15,7 @@ public class Main {
 }
 
 class User {
-  String name = "!?";
+  String name = "11111";
 
   void sayHi() {
     System.out.println("ようつべ 三河!");
