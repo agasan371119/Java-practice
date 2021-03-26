@@ -18,6 +18,6 @@ class User {
   String name = "11111";
 
   void sayHi() {
-    System.out.println("愛知 静岡 福岡 ああ尾張 名古屋 愛知 能登!");
+    System.out.println("愛知 静岡 赤坂 福岡 ああ尾張 名古屋 愛知 能登!");
   }
 }
