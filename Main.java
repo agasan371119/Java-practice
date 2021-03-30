@@ -10,10 +10,6 @@ public class Main {
         for(int i = 0; i < count; i++) {
           int num = sc.nextInt();
 
-          if(num == 2) {
-            System.out.println("Same");
-          } 
-
           if(num % 2 == 1){
             System.out.println("Odd");
           } else {
