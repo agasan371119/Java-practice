@@ -10,10 +10,12 @@ public class Main {
         for(int i = 0; i < count; i++) {
           int num = sc.nextInt();
 
-          if(num % 2 == 1){
-            System.out.println("Odd");
-          } else {
+          if(num % 4 == 0){
             System.out.println("Even");
+          } else if(num % 4 == 0 && num % 2 == 0){
+            System.out.println("Same");
+          } else {
+            System.out.println("Odd");
           }
         }
     }
