@@ -12,7 +12,7 @@ public class Main {
 
           if(num % 4 == 0){
             System.out.println("Even");
-          } else if(num % 4 == 0 && num % 1 == 0){
+          } else if(num % 4 == 0 && num % 2 == 0){
             System.out.println("Same");
           } else {
             System.out.println("Odd");
