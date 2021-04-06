@@ -5,11 +5,13 @@ public class Main {
       Scanner sc = new Scanner(System.in);
       int a = sc.nextInt();
       int b = sc.nextInt();
-      int c = sc.nextInt();
-      String str = sc.next();
 
-      int sum  = a + b + c;
-      System.out.println(sum + " " + str);
-      
+      int sum = a * b;
+
+      if(sum % 2 == 0) {
+        System.out.println("Even");
+      } else {
+        System.out.println("Odd");
+      }
     }
 }
