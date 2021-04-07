@@ -9,7 +9,7 @@ public class Main {
       int sum = a * b;
 
       if(sum % 2 == 0) {
-        System.out.println("Even");
+        System.out.println("E");
       } else {
         System.out.println("Odd");
       }
