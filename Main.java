@@ -3,15 +3,14 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
-      int a = sc.nextInt();
-      int b = sc.nextInt();
 
-      int sum = a * b;
+      //繰り返しの数
+      int count = sc.nextInt();
 
-      if(sum % 2 == 0) {
-        System.out.println("Even");
-      } else {
-        System.out.println("Odd");
+      //繰り返して判断
+      for(int i = 0; i < count; i++) {
+        int num = sc.nextInt();
+        System.out.println(num);
       }
     }
 }
