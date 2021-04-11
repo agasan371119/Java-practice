@@ -9,8 +9,8 @@ public class Main {
 
       //繰り返して判断
       for(int i = 0; i < count; i++) {
-        int num = sc.nextInt();
-        System.out.println(num);
+        int n = sc.nextInt();
+        System.out.println(n);
       }
     }
 }
