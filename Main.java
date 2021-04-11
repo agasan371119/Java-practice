@@ -5,12 +5,8 @@ public class Main {
       Scanner sc = new Scanner(System.in);
 
       //繰り返しの数
-      int count = sc.nextInt();
+      int num = sc.nextInt();
 
-      //繰り返して判断
-      for(int i = 0; i < count; i++) {
-        int n = sc.nextInt();
-        System.out.println(n);
-      }
+      System.out.println(num - 1);
     }
 }
