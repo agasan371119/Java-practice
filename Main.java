@@ -12,16 +12,18 @@ public class Main {
       //繰り返し
       String output;
       for(int i = 1; i <= count; i++) {
-          if(i % 3 == 0 && i % 5 == 0) {
-            output = i + ": FizzBuzz";
-          } else if(i % 3 == 0) {
-            output = i + ": Fizz";
-          } else if(i % 5 == 0) {
-            output = i + ": Buzz";
-          } else {
-            output = String.valueOf(i);
-          }
-          System.out.println(output);
+        output = "";
+
+        if(i % 3 == 0) {
+          output = "Fizz";
+        }
+
+        if(i % 5 == 0) {
+          output = output + "Buzz";
+        }
+
+        output = String.valueOf(i) + ":" + output;
+        System.out.println(output);
       }
     }
 }
