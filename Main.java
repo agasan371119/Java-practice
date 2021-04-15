@@ -22,7 +22,7 @@ public class Main {
           output = output + "Buzz";
         }
 
-        output = String.valueOf(i) + ":" + output;
+        output = String.valueOf(i) + " : " + output;
         System.out.println(output);
       }
     }
