@@ -9,6 +9,7 @@ public class Main {
       //空白
       System.out.println("");
       System.out.println("---------------");
+      System.out.println("");
 
       //繰り返し
       String output;
