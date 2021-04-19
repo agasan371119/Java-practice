@@ -7,7 +7,7 @@ public class Main {
       int count = sc.nextInt();
 
       //空白
-      System.out.print(":  ");
+      System.out.print(": ");
       System.out.println("---------------");
       System.out.println("");
 
