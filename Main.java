@@ -13,7 +13,7 @@ public class Main {
       if(s < u) {
         System.out.println("ya");
       } else {
-        System.out.println("no");
+        System.out.println("n");
       }
     }
 }
