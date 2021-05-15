@@ -13,7 +13,7 @@ public class Main {
       if(s < u) {
         System.out.println("ya------");
       } else {
-        System.out.println("nire");
+        System.out.println("uma mo yada");
       }
     }
 }
