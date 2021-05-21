@@ -11,7 +11,7 @@ public class Main {
       int u = c * c;
 
       if(s < u) {
-        System.out.println("y");
+        System.out.println("yええ");
       } else {
         System.out.println("n");
       }
