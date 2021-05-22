@@ -13,7 +13,7 @@ public class Main {
       if(s < u) {
         System.out.println("yええ");
       } else {
-        System.out.println("n");
+        System.out.println("nいや");
       }
     }
 }
