@@ -11,7 +11,7 @@ public class Main {
       int u = c * c;
 
       if(s < u) {
-        System.out.println("zimen - kamie");
+        System.out.println("zimen - kamieeee");
       } else {
         System.out.println("nいや勉強");
       }
