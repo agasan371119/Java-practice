@@ -10,10 +10,10 @@ public class Main {
       int s = a * a + b * b;
       int u = c * c;
 
-      if(s < u) {
+      if(s <= u) {
         System.out.println("zimen - kamieeee");
       } else {
-        System.out.println("nいや勉強");
+        System.out.println("いや勉強");
       }
     }
 }
