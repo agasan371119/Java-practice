@@ -13,7 +13,7 @@ public class Main {
       if(s <= u) {
         System.out.println("zimen - kamieeee");
       } else {
-        System.out.println("いや勉強しろよ");
+        System.out.println("いや勉強しろよkkkkk");
       }
     }
 }
