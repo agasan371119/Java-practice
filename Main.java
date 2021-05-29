@@ -3,17 +3,11 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
-      int a = sc.nextInt();
-      int b = sc.nextInt();
-      int c = sc.nextInt();
+    
+      int num = sc.nextInt();
 
-      int s = a * a + b * b;
-      int u = c * c;
-
-      if(s <= u) {
-        System.out.println("zimen - kamieeee");
-      } else {
-        System.out.println("いや勉強しろよkkkkkああああ");
+      for(int i = 0; i < num; i++) {
+          System.out.println("wa-i");
       }
     }
 }
