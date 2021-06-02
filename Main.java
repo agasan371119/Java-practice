@@ -7,9 +7,9 @@ public class Main {
       int num = sc.nextInt();
 
       for(int i = 0; i < num; i++) {
-        System.out.println("Yes");
+        System.out.println("YES");
       } else {
-        System.out.println("No");
+        System.out.println("NO");
       }
     }
 }
