@@ -9,7 +9,7 @@ public class Main {
       for(int i = 0; i < num; i++) {
         System.out.println("YES!!!!!!!!??????");
       } else {
-        System.out.println("NO!!!!!!!!??????");
+        System.out.println("NO!!!!!!!!??????&&&&&&");
       }
     }
 }
