@@ -8,9 +8,9 @@ public class Main {
       int y = sc.nextInt();
 
       for(int i = 0; i < num; i++) {
-        System.out.println("YES!!!!!!!!??????");
+        System.out.println("YES!!!!!??????");
       } else {
-        System.out.println("NO!!!!!!!!1111");
+        System.out.println("NO!!!");
       }
     }
 }
