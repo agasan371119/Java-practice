@@ -8,7 +8,7 @@ public class Main {
       int y = sc.nextInt();
 
       for(int i = 0; i < num; i++) {
-        System.out.println("YES!!!!!??????");
+        System.out.println("YES!YES!");
       } else {
         System.out.println("NO!!!");
       }
