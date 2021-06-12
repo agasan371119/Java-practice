@@ -3,14 +3,13 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
-    
-      int s = sc.nextInt();
-      int y = sc.nextInt();
+      
+      System.out.print("数字を入力してください : ");
+      int count = sc.nextInt();
 
-      for(int i = 0; i < num; i++) {
-        System.out.println("YES!YES!");
-      } else {
-        System.out.println("NO!!!MO");
-      }
+
+      for(int i = 1; i < count; i++) {
+        System.out.println(i);
     }
+  }
 }
