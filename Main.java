@@ -3,10 +3,13 @@ import java.util.*;
 public class Main {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    int count = sc.nextInt();
+    double num = sc.nextInt();
+    double num1 = sc.nextInt();
 
-    for(int i = 0; i < count; i++) {
-      System.out.println(i);
-    }
+    double sum = num1 / 100;
+    double sum1 = sum1 * num2;
+
+    System.out.println(sum2);
+
   }
 }
