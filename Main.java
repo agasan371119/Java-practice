@@ -6,7 +6,7 @@ public class Main {
 
     int num = sc.nextInt();
 
-    double sum = num * 1.08;
+    double sum = num * 1;
 
     if(sum == 206) {
       System.out.println("so-so");
