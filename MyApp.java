@@ -8,6 +8,6 @@ public class MyApp {
 
 class Player {
   public void walk() {
-    System.out.println("わーい");
+    System.out.println("繰り返し");
   }
 }
