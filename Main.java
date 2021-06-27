@@ -1,19 +1,17 @@
-import java.util.*;
+import java.util.Scanner;
+import java.util.Arrays;
 
-public class Main {
-  public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-    int num = sc.nextInt();
+        int[] num = new int[3];
 
-    double sum = num * 1;
+        for(int i = 0; i < 3; i++) {
+          int[i] = sc.nextInt();
+        }
+        Arrays.sort(num);
 
-    if(sum == 206) {
-      System.out.println("so-so");
-    } else if(sum < 206) {
-      System.out.println("Yay!");
-    } else {
-      System.out.println(":(");
+        System.out.println(num[0] + " " + num[1] + " " + num[2]);
     }
-  }
 }
