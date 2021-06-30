@@ -7,7 +7,8 @@ class Main {
     int count = sc.nextInt();
 
     for(int i = 0; i < count; i++) {
-      System.out.println("hello");
+      int num = sc.nextInt();
+      System.out.println(num);
     }
   }
 }
