@@ -6,9 +6,10 @@ class Main {
 
     int count = sc.nextInt();
 
-    for(int i = 0; i < count; i++) {
-      int num = sc.nextInt();
-      System.out.println(num);
+    int[] num = new int[count];
+    for(int i = 0; i < count.length; i++) {
+      num [i]= sc.nextInt();
+      System.out.println(num[i]);
     }
   }
 }
