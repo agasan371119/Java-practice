@@ -10,7 +10,7 @@ class Main {
     for(int i = 0; i < count.length; i++) {
       num [i]= sc.nextInt();
       System.out.println(num[i]);
-      System.out.println(" ");      
+      System.out.println(" bye" + " ");      
     }
   }
 }
