@@ -9,7 +9,7 @@ class Main {
     int[] num = new int[count];
     for(int i = 0; i < count.length; i++) {
       num [i]= sc.nextInt();
-      System.out.println(" " + num[i] + " ");
+      System.out.println(" " + num[i] + " " + " 終了!!");
       System.out.println(" bye" + " ");      
     }
   }
