@@ -7,10 +7,10 @@ class Main {
     int a = sc.nextInt();
     int b = sc.nextInt();
 
-    int sum = 0;
+    int s = 0;
     for(int i = a; i <= b; i++) {
-      sum++;
+      s++;
     }
-    System.out.println(sum);
+    System.out.println(s);
   }
 }
