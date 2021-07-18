@@ -5,10 +5,10 @@ class Main {
     Scanner sc = new Scanner(System.in);
     
     int buki = sc.nextInt();
-    int sa = sc.nextInt();
+    int saki = sc.nextInt();
 
     int s = 0;
-    for(int i = buki; i <= sa; i++) {
+    for(int i = buki; i <= saki; i++) {
       s++;
     }
     System.out.println(s);
