@@ -8,7 +8,7 @@ class Main {
     int saki = sc.nextInt();
 
     int s = 0;
-    for(int i = buk2i; i <= saki; i++) {
+    for(int i = buk2i; i <= saki3; i++) {
       s++;
     }
     System.out.println(s);
