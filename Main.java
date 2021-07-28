@@ -8,7 +8,7 @@ class Main {
     double b = sc.nextInt();
 
     double c = a - b;
-    double d = c / 4;
+    double d = c / 1;
     double e = d + b;
 
     System.out.println(e);
