@@ -7,9 +7,9 @@ class Main {
     double b = sc.nextInt();
     double a = sc.nextInt();
 
-    double d = a - b;
+    double dd = a - b;
     double d = c / 1;
-    double e = d + b;
+    double f = d + b;
 
     System.out.println(e);
 
