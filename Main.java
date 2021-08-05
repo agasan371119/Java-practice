@@ -9,7 +9,7 @@ class Main {
 
     double dd = a - b;
     double d = c / 1;
-    double w = d + b;
+    double x = d + b;
 
     System.out.println(e);
 
