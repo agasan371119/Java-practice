@@ -4,12 +4,12 @@ class Main {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     
-    double b = sc.nextInt();
-    double a = sc.nextInt();
+    int b = sc.nextInt();
+    int a = sc.nextInt();
 
-    double dd = a - b;
-    double q = c / 1;
-    double x = d + b;
+    int dd = a - b;
+    int q = c / 1;
+    int x = d + b;
 
     System.out.println(e);
 
