@@ -7,7 +7,7 @@ class Main {
     int b = sc.nextInt();
     int a = sc.nextInt();
 
-    int vv = a - b;
+    int qq = a - b;
     int q = c / 1;
     int x = d + b;
 
