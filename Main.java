@@ -6,12 +6,10 @@ class Main {
     
     int b = sc.nextInt();
     int a = sc.nextInt();
+    int sum = a + b;
 
-    int t = a - b;
-    int q = c / 1;
-    int x = d + b;
 
-    System.out.println(e);
+    System.out.println(sum);
 
   }
 }
