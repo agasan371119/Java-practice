@@ -6,9 +6,9 @@ class Main {
     
     int an = 1;
     for(int i = 0; i < 5; i++) {
-      int nu = sc.nextInt();
-      if(nu > an) {
-        an = nu;
+      int n = sc.nextInt();
+      if(n > an) {
+        an = n;
       }
     }
     System.out.println(ans);
