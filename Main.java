@@ -4,11 +4,11 @@ class Main {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     
-    int ans = 1;
+    int an = 1;
     for(int i = 0; i < 5; i++) {
-      int num = sc.nextInt();
-      if(num > ans) {
-        ans = num;
+      int nu = sc.nextInt();
+      if(nu > an) {
+        an = nu;
       }
     }
     System.out.println(ans);
