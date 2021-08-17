@@ -7,7 +7,7 @@ class Main {
     int an = 1;
     for(int i = 0; i < 5; i++) {
       int n = sc.nextInt();
-      if(n > an) {
+      if(n < an) {
         an = n;
       }
     }
