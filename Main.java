@@ -5,7 +5,13 @@ class Main {
     Scanner sc = new Scanner(System.in);
     
     int s = sc.next().length();
+    int t = sc.next().length();
 
-    System.out.println(s);
+    if(s > t) {
+      System.out.println("Yes");
+    } else {
+      System.out.println("No");
+    }
+
   }
 }
