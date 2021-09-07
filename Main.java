@@ -4,10 +4,10 @@ class Main {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     
-    int s = sc.next().length();
+    int n = sc.next().length();
     int m = sc.next().length();
 
-    if(s > m) {
+    if(n > m) {
       System.out.println("Yes");
     } else {
       System.out.println("No");
