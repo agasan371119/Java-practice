@@ -1,16 +1,20 @@
-import java.util.Scanner;
-
 class Main {
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
     
-    int n = sc.next().length();
-    int m = sc.next().length();
+    int hit = (int)(Math.random() * 10 + 1);
 
-    if(n > m) {
-      System.out.println("Yes");
+    if(hit < 6) {
+      System.out.println("モンスターは、" + hit + "のダメージを受けた");
     } else {
-      System.out.println("No");
+      System.out.println("モンスターにクリティカルヒットのダメージを与えた！！");
+    }
+    
+    int crt = (int) (Math.random() * 2 + 1);
+
+    if(crt == 1) {
+      System.out.println("モンスターを倒した！！");
+    } else {
+      System.out.println("モンスターに返り討ちにされた");
     }
 
   }
