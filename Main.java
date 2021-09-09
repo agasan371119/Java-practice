@@ -14,7 +14,7 @@ class Main {
     if(crt == 1) {
       System.out.println("モンスターを倒した！！");
     } else {
-      System.out.println("モンスターに返り討ちにされた");
+      System.out.println("モンスターに返り討ちにされた 残念");
     }
 
   }
