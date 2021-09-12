@@ -12,8 +12,8 @@ public class Main {
             num[i] = sc.nextInt();
         }
         
-        for(int s : num) {
-            if(s == 0) {
+        for(int r : num) {
+            if(r == 0) {
                 System.out.println("NO");
                 sc.close();
                 return;
