@@ -19,7 +19,7 @@ public class Main {
                 return;
             }
         }
-        System.out.println("YES");
+        System.out.println("Yes");
         sc.close();
     }
 }
