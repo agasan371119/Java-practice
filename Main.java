@@ -14,7 +14,7 @@ public class Main {
         
         for(int r : num) {
             if(r == 0) {
-                System.out.println("NO");
+                System.out.println("No");
                 sc.close();
                 return;
             }
