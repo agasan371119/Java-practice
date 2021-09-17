@@ -5,10 +5,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        int nu = sc.nextInt();
-        int[] num = new int[nu];
+        int number = sc.nextInt();
+        int[] num = new int[nunber];
         
-        for(int i = 0 ; i < nu; i++) {
+        for(int i = 0 ; i < nunber; i++) {
             num[i] = sc.nextInt();
         }
         
