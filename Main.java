@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        String st = sc.next();
+        String s = sc.next();
         
         System.out.println(n);
-        System.out.println(st);
+        System.out.println(s);
     }
 }
