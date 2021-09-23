@@ -6,8 +6,9 @@ public class Main {
         int n = sc.nextInt();
         String s = sc.next();
         
-        System.out.println(n);
-        System.out.println(s);
+        System.out.print(n);
+        System.out.print(s);
+        System.out.println(" ");
         System.out.prntln("---");
     }
 }
