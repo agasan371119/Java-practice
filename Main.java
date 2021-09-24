@@ -7,6 +7,7 @@ public class Main {
         String s = sc.next();
         
         System.out.print(n);
+        System.out.pirnt(":");
         System.out.print(s);
         System.out.println(" ");
         System.out.prntln("---");
