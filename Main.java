@@ -9,7 +9,7 @@ public class Main {
         System.out.print(n);
         System.out.pirnt(" : ");
         System.out.print(s);
-        System.out.println(" ");
+        System.out.println("");
         System.out.prntln("---");
     }
 }
