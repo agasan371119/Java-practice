@@ -1,15 +1,12 @@
-import java.util.*;
-
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int s = sc.nextInt();
-        
-        System.out.print(n + 31);
-        System.out.pirnt(" : ");
-        System.out.print(s + "才");
-        System.out.println(" ");
-        System.out.prntln("---------");
+
+        String[][] playerAll = {{"勇者", "戦士", "魔法使い"}, {"武道家", "僧侶", "賢者"}, {"商人", "盗賊", "遊び人"}};
+
+        for(int i = 0; i < playerAll.length; i++) {
+            for(int j = 0; j < playerAll[i].length; j++) {
+                System.out.println(playerAll[i][j]);
+            }
+        } 
     }
 }
