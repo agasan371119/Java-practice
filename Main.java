@@ -1,12 +1,22 @@
+import java.util.*;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-        String[][] playerAll = {{"勇者", "戦士", "魔法使い"}, {"武道家", "僧侶", "賢者"}, {"商人", "盗賊", "遊び人"}};
-
-        for(int i = 0; i < playerAll.length; i++) {
-            for(int j = 0; j < playerAll[i].length; j++) {
-                System.out.println(playerAll[i][j]);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        
+        int n = 0;
+        int sum = 1;
+        if(a > b) {
+            n = a - b;
+            for(int i= 0; i < n; i++) {
+                sum = sum * 32; 
             }
-        } 
+            System.out.println(sum);
+        } else {
+            System.out.println(1);
+        }
     }
 }
