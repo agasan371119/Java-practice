@@ -1,22 +1,21 @@
 import java.util.*;
 
+
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+        int n = sc.nextInt();
         
-        int n = 0;
-        int sum = 1;
-        if(a > b) {
-            n = a - b;
-            for(int i= 0; i < n; i++) {
-                sum = sum * 32; 
+        for(int i = 1; i <= n; i++) {
+            if(i % 3 == 0 && i % 5 == 0) {
+                System.out.println("FizzBuzz");
+            } else if(i % 3 == 0) {
+                System.out.println("Fizz");
+            } else if(i % 5 == 0) {
+                System.out.println("Buzz");
+            } else {
+                System.out.println(i);
             }
-            System.out.println(sum);
-        } else {
-            System.out.println(1);
         }
     }
 }
