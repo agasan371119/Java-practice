@@ -10,7 +10,7 @@ public class Main {
             if(i % 3 == 0 && i % 5 == 0) {
                 System.out.println("FizzBuzz");
             } else if(i % 3 == 0) {
-                System.out.println("Fizz");
+                System.out.println("fizz");
             } else if(i % 5 == 0) {
                 System.out.println("buzz");
             } else {
