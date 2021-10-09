@@ -30,8 +30,8 @@ public class Main {
                 ah -= 24;
             }
 
-            String endH = Integer.toString(ah);
-            String endM = Integer.toString(am);
+            String endH = String.valueOf(ah);
+            String endM = String.valueOf(am);
 
             if(endH.length() == 1) {
                 endH = "0" + endH;
