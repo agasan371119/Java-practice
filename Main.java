@@ -18,9 +18,11 @@ public class Main {
             int startH = Integer.parseInt(start.substring(0, 2));
             int startm = Integer.parseInt(start.substring(3, 5));
             
+            //数値に時間と分を加える
             int ah = startH + h;
             int am = startM + m;
 
+            //
             if(am >= 60) {
                 ah += 1;
                 am -= 60;
