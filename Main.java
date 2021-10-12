@@ -7,7 +7,7 @@ public class Main {
         
         int count = sc.nextInt();
         
-        int[] numArray = new int[count];
+        int[] nArray = new int[count];
         
         for(int i = 0; i < count; i++) {
             numArray[i] = sc.nextInt(); 
@@ -16,7 +16,7 @@ public class Main {
         int k = sc.nextInt();
 
         for(int i = 0; i < count; i++) {
-            if(numArray[i] == k) {
+            if(nArray[i] == k) {
                 System.out.println(i + 1);
                 //breakで終了させる
                 break;
