@@ -7,12 +7,12 @@ public class Main {
         
         int count = sc.nextInt();
         
-        int[] nArray = new int[count];
+        int[] nnArray = new int[count];
         
         for(int i = 0; i < count; i++) {
             numArray[i] = sc.nextInt(); 
         }
-        
+        //確認用
         int k = sc.nextInt();
 
         for(int i = 0; i < count; i++) {
