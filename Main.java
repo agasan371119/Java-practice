@@ -3,24 +3,18 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        
-        int count = sc.nextInt();
-        
-        int[] nnArray = new int[count];
-        
-        for(int i = 0; i < count; i++) {
-            numArray[i] = sc.nextInt(); 
-        }
-        //確認用
-        int k = sc.nextInt();
+        ArrayList <String> str = new ArrayList<>();
 
-        for(int i = 0; i < count; i++) {
-            if(nArray[i] == k) {
-                System.out.println(i + 1);
-                //breakで終了させる
-                break;
-            }
+        str.add("勇者");
+        str.add("戦士");
+        str.add("魔法使い");
+        str.add("僧侶");
+        str.add("賢者");
+        str.add("遊び人");
+        str.add("武道家");
+        
+        for(int i = 0; i < str.size(); i++) {
+            System.out.println(str.get(i));
         }
     }
-}s
+}
