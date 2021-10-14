@@ -1,13 +1,18 @@
+import java.util.*;
+
 public class MyApp {
   public static void main(String[] args) {
-    Player player1 = new Player();
-    player1.walk();
-  }
+    HashMap<String, Integer> num = new HashMap <String, Integer>();
 
-}
+    num.put("りんご", 30);
+    num.put("ゴリラ", 20);
+    num.put("カミト", 10);
+    num.put("ひなの", 40);
 
-class Player {
-  public void walk() {
-    System.out.println("繰り返し");
+    System.out.println(num.get("りんご"));
+
+    num.put("りんご", 50 + 60);
+
+    System.out.println(num.get("りんご"));
   }
-}
+};
