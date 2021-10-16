@@ -11,7 +11,7 @@ public class MyApp {
 
     System.out.println(num.get("りんご"));
 
-    num.put("りんご", 50 + 50);
+    num.put("りんご", 50 + 100);
 
     System.out.println(num.get("りんご"));
   }
