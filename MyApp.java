@@ -14,5 +14,7 @@ public class MyApp {
     num.put("りんご", 50 + 100);
 
     System.out.println(num.get("りんご"));
+
+    System.out.println(num.size());
   }
 };
