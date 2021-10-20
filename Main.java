@@ -6,8 +6,9 @@ public class Main {
         int ans = 0;
         
         for(int i = 0; i < 3; i++) {
-            int n = sc.next().length();
-
+            String b = sc.next();
+            int n = b.length();
+            
             if(a < n) {
                 a = n;
             }
