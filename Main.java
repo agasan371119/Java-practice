@@ -11,7 +11,7 @@ public class Main {
         while(i < 10) {
             System.out.println(i);
             sum++;
-            i += 1;
+            i = i + 1;
         } 
         int m = 10 - sum;
         for(int j = 0; j < m; j++) {
