@@ -20,7 +20,7 @@ public class Main {
         if (j < m - 1) {
           System.out.print(" ");
         } else {
-          System.out.println("");
+          System.out.println(" ");
         }
       }
     }
