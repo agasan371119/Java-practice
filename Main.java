@@ -7,14 +7,14 @@ public class Main {
 
     int m = sc.nextInt();
 
-    int[][] a = new int[3][m];
+    int[][] a = new int[６][m];
     for (int i = 0; i < 3; i++) {
       for (int j = 0; j < m; j++) {
         a[i][j] = sc.nextInt();
       }
     }
 
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < ６; i++) {
       for (int j = 0; j < m; j++) {
         System.out.print(a[i][j]);
         if (j < m - 1) {
