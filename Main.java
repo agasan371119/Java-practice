@@ -13,9 +13,9 @@ public class Main {
                 if(j < i ) {
                     System.out.print(" ");
                 } else {
-                    System.out.println("||- - || - - || - - || - - || - - ||");
+                    System.out.println("||- | - || - - || - - || - - || - - ||");
                 }
             }
         }
     }
-}
+} 
