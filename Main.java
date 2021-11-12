@@ -1,27 +1,14 @@
 import java.util.*;
 
-
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        //空のHashMap作成
-        HashMap<String, Integer> point = new HashMap<>();
+        String[] name = {"b", "a", "c", "d"};
 
-        //HashMapに格納
-        for(int i = 0; i < n; i++) {
-            String s = sc.next();
-            point.put(s, 0);
+        Arrays.sort(name);
+        for(int i = 0; i < 4; i++) {
+            System.out.println(name[i]);
         }
 
-        int m = sc.nextInt();
-        for(int i = 0; i < m; i++) {
-            String t = sc.next();
-            int l = sc.nextInt();
-
-            point.put(t, point.get(t) + l);
-        }
-        String r = sc.next();
-        System.out.println(point.get(r));
     }
 }
