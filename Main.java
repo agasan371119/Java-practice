@@ -8,6 +8,7 @@ public class Main {
         list.add("a");
         list.add("e");
         list.add("g");
+        list.add("z");
 
         Collections.sort(list);
         for(int i = 0; i < list.size(); i++) {
