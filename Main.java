@@ -13,6 +13,7 @@ public class Main {
         list.add("B");
         list.add("1");
         list.add("3");
+        list.add("5");
 
         Collections.sort(list);
         for(int i = 0; i < list.size(); i++) {
