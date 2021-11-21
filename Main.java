@@ -15,6 +15,7 @@ public class Main {
         list.add("3");
         list.add("5");
         list.add("10");
+        list.add("z");
 
         Collections.sort(list);
         for(int i = 0; i < list.size(); i++) {
