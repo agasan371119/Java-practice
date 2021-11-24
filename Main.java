@@ -18,6 +18,7 @@ public class Main {
         list.add("z");
         list.add("あ");
         list.add("か");
+        list.add("ぃ");
 
         Collections.sort(list);
         for(int i = 0; i < list.size(); i++) {
