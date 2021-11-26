@@ -20,6 +20,7 @@ public class Main {
         list.add("か");
         list.add("ぃ");
         list.add("お");
+        list.add("13");
 
         Collections.sort(list);
         for(int i = 0; i < list.size(); i++) {
