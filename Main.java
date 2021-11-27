@@ -22,6 +22,7 @@ public class Main {
         list.add("お");
         list.add("13");
         list.add("16");
+        list.add("21");
 
         Collections.sort(list);
         for(int i = 0; i < list.size(); i++) {
