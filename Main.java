@@ -21,6 +21,7 @@ public class Main {
         list.add("ぃ");
         list.add("お");
         list.add("13");
+        list.add("16");
 
         Collections.sort(list);
         for(int i = 0; i < list.size(); i++) {
