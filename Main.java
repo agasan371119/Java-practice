@@ -23,6 +23,7 @@ public class Main {
         list.add("13");
         list.add("16");
         list.add("21");
+        list.add("ab");
 
         Collections.sort(list);
         for(int i = 0; i < list.size(); i++) {
