@@ -24,6 +24,7 @@ public class Main {
         list.add("16");
         list.add("21");
         list.add("ab");
+        list.add("cd");
 
         Collections.sort(list);
         for(int i = 0; i < list.size(); i++) {
