@@ -26,6 +26,7 @@ public class Main {
         list.add("ab");
         list.add("cd");
         list.add("ef");
+        list.add("eg");
 
         Collections.sort(list);
         for(int i = 0; i < list.size(); i++) {
