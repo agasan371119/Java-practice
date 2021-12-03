@@ -28,6 +28,7 @@ public class Main {
         list.add("ef");
         list.add("eg");
         list.add("er");
+        list.add("ez");
 
         Collections.sort(list);
         for(int i = 0; i < list.size(); i++) {
