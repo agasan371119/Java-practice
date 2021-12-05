@@ -8,8 +8,6 @@ public class Main {
 
         if(n >= 42) {
             n += 1;
-        } else {
-            n = n;
         }
 
         String n1 = Integer.toString(n);
