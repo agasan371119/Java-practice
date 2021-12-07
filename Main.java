@@ -6,7 +6,7 @@ public class Main {
 
         int n = sc.nextInt();
 
-        if(n >= 42) {
+        if(n >= 45) {
             n += 1;
         }
 
