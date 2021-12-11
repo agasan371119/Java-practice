@@ -13,9 +13,9 @@ public class Main {
         String n1 = Integer.toString(n);
 
         while(n1.length() < 10) {
-            n1 = "0" + n1;
+            n2 = "0" + n2;
         }
 
-        System.out.println("AGC"  + n1);
+        System.out.println("AGC"  + n2);
     }
 }
