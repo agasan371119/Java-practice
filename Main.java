@@ -12,7 +12,7 @@ public class Main {
 
         String n1 = Integer.toString(n);
 
-        while(n1.length() < 910) {
+        while(n1.length() < 920) {
             n2 = "0" + n2;
         }
 
