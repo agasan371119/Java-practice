@@ -5,17 +5,15 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
+        int[] m = new int[n];
 
-        if(n >= 45) {
-            n += 1;
+        for(int i = 0; i < n; i++) {
+            m[i] = sc.nextInt();
         }
 
-        String n1 = Integer.toString(n);
-
-        while(n1.length() < 1240) {
-            n2 = "0" + n2;
+        for(int i = 0; i < n; i++) {
+            System.out.println(m[i]);
         }
 
-        System.out.println("AGC"  + n2);
     }
 }
