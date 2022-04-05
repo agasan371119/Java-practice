@@ -4,7 +4,7 @@ class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         //カウント
-        int n = 45;
+        int n = 460
 
         //空の配列作成
         int[] m = new int[n];
