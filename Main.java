@@ -1,21 +1,22 @@
 import java.util.*;
 
-class Main {
+public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        //カウント
-        int n = 540;
+        int n = sc.nextInt();
 
-        //空の配列作成
-        int[] m = new int[n];
+        int[] a = new int[n];
 
-        //配列に入力
         for(int i = 0; i < n; i++) {
-            m[i] = sc.nextInt();
+            a[i] = sc.nextInt();
         }
-        //配列から出力
-        for(int i = 0; i < n; i++) {
-            System.out.println(m[i]);
+
+        int k = sc.nextInt();
+
+        int sum = 0;
+
+        for(int i = n - 1; i > -1 ; i-- ) {
+            System.out.println(i);
         }
 
     }
