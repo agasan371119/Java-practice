@@ -12,7 +12,7 @@ public class Main {
             m[i] = sc.nextInt();
         }
         for(int l : m) {
-            System.out.println(m[i] - k);
+            System.out.println(m[i] - k + k);
         }
     }
 }
