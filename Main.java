@@ -11,7 +11,7 @@ public class Main {
         for(int i = 0; i < n; i++) {
             n[i] = sc.nextInt();
         }
-        for(int l : m) {
+        for(int l : n) {
             System.out.println(n[i]);
         }
     }
