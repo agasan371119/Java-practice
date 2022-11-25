@@ -3,16 +3,14 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int l = sc.nextInt();
-        int k = sc.nextInt();
+        int s = sc.nextInt();
 
-        int[] n = new int[n];
-
-        for(int i = 0; i < n; i++) {
-            n[i] = sc.nextInt();
-        }
-        for(int l : nn) {
-            System.out.println(i);
+        if(s > 10) {
+            System.out.println("やったー!!!!");
+        } else if(s < 9) {
+            System.out.println("残念");
+        } else {
+            System.out.println("無念です");
         }
     }
 }
