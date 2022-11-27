@@ -10,7 +10,7 @@ public class Main {
         } else if(s < 9) {
             System.out.println("残念");
         } else {
-            System.out.println("無念です");
+            System.out.println("無念");
         }
     }
 }
