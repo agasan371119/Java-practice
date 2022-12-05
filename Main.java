@@ -8,7 +8,7 @@ public class Main {
         if(s > 10) {
             System.out.println("やったー!!!!");
         } else if(s < 9) {
-            System.out.println("無");
+            System.out.println("わかった");
         } else {
             System.out.println("ザーン");
         }
