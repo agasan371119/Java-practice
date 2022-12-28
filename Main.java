@@ -6,7 +6,7 @@ public class Main {
         int s = sc.nextInt();
 
         if(s > 10) {
-            System.out.println("やったー!");
+            System.out.println("やった!");
         } else if(s < 9) {
             System.out.println("わかった!!!");
         } else {
